@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="flex-container">
+            <div>
+                <h1>HOME</h1>
+                <div class="score">
+                    <span class="points" id="scoreHome-el">0</span>
+                </div>
+                <button type="button" id="1home-el" onclick="add1home()">+1</button>
+                <button type="button" id="2home-el" onclick="add2home()">+2</button>
+                <button type="button" id="3home-el" onclick="add3home()">+3</button>
+
+            </div>
+
+            <div>
+                <h1>GUEST</h1>
+                <div class="score">
+                    <span class="points" id="scoreGuest-el">0</span>
+                </div>
+                <button type="button" id="1guest-el" onclick="add1guest()">+1</button>
+                <button type="button" id="2guest-el" onclick="add2guest()">+2</button>
+                <button type="button" id="3guest-el" onclick="add3guest()">+3</button>
+                
+            </div>
+            
+            
+            
+            
+           <!-- <h1>Skips counter:</h1>
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="increment()">COUNT</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <p id="save-el">Previous entries: </p> -->
+
+            <script src="index.js"></script> 
+        </div>
+    </body>
+</html>
